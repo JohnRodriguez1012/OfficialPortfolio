@@ -2,9 +2,10 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const routes = require("./routes");
+const controller = require("./controllers/controllers");
 const app = express();
 const PORT = process.env.PORT || 3001;
-
+const db = require("./models");
 //swit
 // Configure body parser for AJAX requests
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -30,8 +31,32 @@ mongoose.connect(
 );
 
 
+//create scores
+// app.post("/SignUp", function(req, res){
+//   db.Scores.create(req.body.body)
+//   .then(function(dbUser) {
+//     console.log(dbUser);
+//   })
+//   .catch(function(err) {
+//     console.log(err.message);
+//   }); 
+// })
 
+//create login
+app.post("/SignUp", function(req, res) {
+  console.log(req.body.body)
+  // controller.createUser(req,res)
+  // return true;
 
+  db.User.create(req.body.body)
+.then(function(dbUser) {
+  console.log(dbUser);
+})
+.catch(function(err) {
+  console.log(err.message);
+});
+
+  });
 
 // Start the API server
 app.listen(PORT, function() {
