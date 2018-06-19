@@ -1,0 +1,33 @@
+#contact{
+    background-color: white;
+    border-radius: 35px;
+    text-align: center;
+    color: #5bbcac;
+}
+
+#contact-button{
+    border-radius: 35px;
+    float: middle;
+}
+
+.margin-padding{
+    margin: 20px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
+}
+
+
+button{
+    background-color:#574e4e;
+    margin: auto;
+    border-radius: 35px;
+    width:95%;
+    padding: 5px;
+
+}
+
+#connectIcon {
+    display: block;
+    margin: auto auto;
+    height: 50%;
+    width: 70px;
+};
