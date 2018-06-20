@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const path = require('path');
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const controller = require("./controllers/controllers");
@@ -63,7 +64,13 @@ app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
 
+app.use(express.static(path.join(__dirname, 'build')));
 
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+app.listen(9000);
 
   // console.log(controller)
 
