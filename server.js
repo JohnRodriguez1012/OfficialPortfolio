@@ -27,7 +27,7 @@ mongoose.connect(
   {
     useMongoClient: true
   }
-);
+); 
 
 
 //create scores
