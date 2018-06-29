@@ -23,7 +23,7 @@ mongoose.Promise = Promise;
 // });
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://127.0.0.1/boredBonkers",
+  process.env.MONGODB_URI || "mongodb://127.0.0.1/jrodriguez",
   {
     useMongoClient: true
   }
