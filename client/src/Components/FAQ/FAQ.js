@@ -10,17 +10,17 @@ const FAQ = () => (
 
             <h3> What made you leave NJ?</h3>
             <h4>
-                Have you been to NJ?
+                I love New Jersey but if you've ever visited, you'd understand why I left.
             </h4>
 
             <h3> Where are you looking to work?</h3>
             <h4>
-                As much as I love Richmond, VA, I am looking to relocate to Charlotte, NC. 
+                I currently live in downtown Richmond, VA and I would like somewhere that's within a 30 minute commute. 
             </h4>
 
             <h3> What is your ideal work environment?</h3>
             <h4>
-                I am looking for an open work environment that encourages collaboration. I am relatively new to the tech field and know that I would be able to not only work better on a team but also learn more as well. 
+                I am looking for an open work environment that encourages collaboration. I would still consider myself relatively new to the tech field and know that I would be able to not only work better on a team but also learn more as well. 
             </h4>
 
             <h3> Any favorite technologies</h3>
@@ -32,11 +32,6 @@ const FAQ = () => (
             <h4>
                 While I worked in HR, I learned about employee development, how to create and conduct trainings, and how to maintain lines of communication with various department leaders. I pride myself in my ability to learn quickly as well and to adapt   
             </h4>            
-
-            <h3> Why the puppies?</h3>
-            <h4>
-                Why not?
-            </h4>
         </div>
     </div>
     

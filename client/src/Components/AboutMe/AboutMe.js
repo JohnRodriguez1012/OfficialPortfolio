@@ -9,15 +9,19 @@ const AboutMe = () => (
         
             <h3> How did I get here? </h3>
             <h4>
-                I am a New Jersey transplant that relocated to Virginia after graduating from Randolph-Macon College with a degree in music. My first job out of college was a sales position with a local insurance company. After 6 months as a sales agent, I was moved to a project role within the customer service department to help better the sales training. 
+                I began my career in an insurance agency, where leadership rapidly recognized my drive, analytical skills, and project management abilities, tapping me to take on progressively larger projects within recruiting and organizational development.  
             </h4>
             <br/>
             <h4>
-                Shortly after the project role, I was promoted to a recruiter position. Without having any background in human resources, much of my first few weeks in the role was learning as much as I could while recruiting for various operation departments. After several months, I was put in charge of recruiting for all the operation departments in both the Texas and Virginia offices. 
+                Within my first year as a recruiter, I restructured our hiring process, built a pipeline for vacancies, and created reports and KPIs to measure recruitment effectiveness. In that process, I was asked to create a database for managing and monitoring candidate test performance. After rudimentary efforts in Excel, I taught myself SQL and my love of coding and development was born.
             </h4>
             <br/>
             <h4>
-                After I started collecting data on candidates and recent hires, I was tasked with creating a database. Once I saw the potential of the databases that I could create with SQL, I decided to learn more through websites like CodeAcademy and Udemy. After getting hooked on learning how to make my own basic webpage, I decided to dive headfirst in a coding bootcamp at the University of Richmond. I've recently graduated and I’m actively looking.
+                In April of 2018, I completed the University of Richmond’s Coding Bootcamp, a 24-week program focused on designing and building web applications. In addition to gaining hands-on experience in full-stack development on NoSQL and open source platforms, I had the opportunity to learn and grow along industry leaders and hone my technical and communication skills in a collaborative environment.
+            </h4>
+            <br/>
+            <h4>
+                Currently, I am exploring new opportunities in the Richmond area and would welcome the opportunity to learn more about your company — and how I can add value to the talented team you already have in place.
             </h4>
         </div>
     </div>
