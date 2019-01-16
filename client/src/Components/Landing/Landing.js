@@ -25,7 +25,7 @@ const Landing = () => (
                    Questions?
                 </h3>
                 <h4>
-                    Now, if you have any questsions, feel free to reach out!
+                    Now, if you have any questsions, feel free to reach out! 
             </div>
         </div>
     </div>
